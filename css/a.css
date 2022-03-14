@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    width: 100%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    background-image: linear-gradient(to right top, #ee5ec7, #d872da, #c183e6, #aa91ec, #969ced, #9e9cea, #a59be7, #ab9be4, #c88fd8, #e182c4, #f376a8, #fc7087);
+}
+
+
+.bj{
+    width: 1100px;
+    height: 600px;
+    margin: 100px auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color:#62748C;
+    box-shadow: 10px 5px 15px #042D39;
+    /* background-image: linear-gradient(to right top, #ee5ec7, #d872da, #c183e6, #aa91ec, #969ced, #9e9cea, #a59be7, #ab9be4, #c88fd8, #e182c4, #f376a8, #fc7087); */
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+.login{
+    width: 1100px;
+    height: 600px;
+}
+.left{
+    width: 800px;
+    height: 600px;
+    float: left;
+    /* background-clip: border-box; */
+}
+.right{
+    width: 300px;
+    height: 600px;
+    float: left;
+    background-image: linear-gradient(to right top, #ee5ec7, #d872da, #c183e6, #aa91ec, #969ced, #9e9cea, #a59be7, #ab9be4, #c88fd8, #e182c4, #f376a8, #fc7087);
+    border-radius: 0px 10px 10px 0px ;
+
+}
+.img1{
+    width: 800px;
+    height: 600px;
+    background-clip: border-box;
+    border-radius: 10px 0px 0px 10px;
+}
+.title{
+    position: relative;
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkslateblue;
+    margin-top: 180px;
+    margin-bottom: 50px; 
+    text-align: center;
+
+    
+}
+.title:before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    top: 50%;
+    background-color: black;
+    left: 15%;
+  }
+  .title:after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    top: 50%;
+    background-color: black;
+    right: 15%;
+  }
+span{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    margin-left: 30px;
+}
+
+/* 设置用户名输入框和密码输入框样式 */
+.right input[type="text"],.right input[type="password"]{
+    border-radius: 24px;
+    border: 2px solid #3498db;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px 0.5px;
+    width: 200px;
+    outline: none;
+    color: white;     
+    transition: 0.25s;   
+    
+  }
+  input::placeholder{
+      color: white;
+  }
+
+.zc{
+    display: block;
+    width: 300px;
+    margin-left: 250px;
+    text-decoration: none;;
+}
+
+button{
+    border:2px solid #3498db;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 85px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #3498db;
+    color: darkslateblue;
+}
