@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vh;
+}
+.one{
+    width: 500px;
+    height: 200px;
+    background-color: aquamarine;
+}
