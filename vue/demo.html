@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="../插件/vue.js"></script>
-    <style></style>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/demo.css">
 </head>
 <body>
     <div class="app">
-        账号：<input type="text" v-model="useid">
-        密码：<input type="password" v-model="usepwd">
+        <form action="./demo2.html">
+            用户名：<input type="text" v-model="userid">
+            密码：<input type="password" v-model="password">
+            <input type="submit">
+        </form>
+        <router-link :to="{userid:{uerid}}" href="./demo2.html"></router-link>
     </div>
     <script>
+        
         new Vue({
-            el:'app',
+            el:'.app',
             data:{
-                useid:'',
-                usepwd:'',
-                
+                userid:''
             }
         })
     </script>
